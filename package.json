@@ -1,0 +1,14 @@
+{
+  "name": "visualship",
+  "version": "0.1.0",
+  "description": "Refuse to ship public OSS until the README has a real hero visual. No hero, no ship.",
+  "type": "commonjs",
+  "bin": { "visualship": "bin/visualship.js" },
+  "files": ["bin", "skills", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "sh scripts/smoke.sh" },
+  "keywords": ["readme", "cli", "agent-skills", "anti-slop", "open-source"],
+  "author": "Turaç (mturac)",
+  "license": "MIT",
+  "repository": "github:mturac/visualship"
+}
